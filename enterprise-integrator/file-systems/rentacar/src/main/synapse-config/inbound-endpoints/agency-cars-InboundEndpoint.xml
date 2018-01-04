@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<inboundEndpoint name="agency-cars-InboundEndpoint" protocol="file" suspend="false" xmlns="http://ws.apache.org/ns/synapse">
+<inboundEndpoint name="agency-cars-InboundEndpoint" onError="car-import-error-Sequence" protocol="file" sequence="car-import-process-file-Sequence" statistics="enable" suspend="false" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
     <parameters>
+        <parameter name="interval">3000</parameter>
         <parameter name="sequential">true</parameter>
         <parameter name="coordination">true</parameter>
+        <parameter name="transport.vfs.ContentType">text/xml</parameter>
         <parameter name="transport.vfs.LockReleaseSameNode">false</parameter>
         <parameter name="transport.vfs.AutoLockRelease">false</parameter>
-        <parameter name="transport.vfs.ActionAfterFailure">DELETE</parameter>
-        <parameter name="transport.vfs.ActionAfterProcess">DELETE</parameter>
+        <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
+        <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
+        <parameter name="transport.vfs.FileURI">file:///Users/edgar/WSO2-Local/workspace/2018/wso2-presales-latam/enterprise-integrator/file-systems/rentacar/files/in</parameter>
+        <parameter name="transport.vfs.MoveAfterFailure">file:///Users/edgar/WSO2-Local/workspace/2018/wso2-presales-latam/enterprise-integrator/file-systems/rentacar/files/error</parameter>
         <parameter name="transport.vfs.DistributedLock">false</parameter>
-        <parameter name="transport.vfs.Locking">enable</parameter>
+        <parameter name="transport.vfs.FileNamePattern">.*.xml</parameter>
+        <parameter name="transport.vfs.MoveAfterProcess">file:///Users/edgar/WSO2-Local/workspace/2018/wso2-presales-latam/enterprise-integrator/file-systems/rentacar/files/out</parameter>
+        <parameter name="transport.vfs.Locking">disable</parameter>
         <parameter name="transport.vfs.FileSortAttribute">none</parameter>
         <parameter name="transport.vfs.FileSortAscending">true</parameter>
         <parameter name="transport.vfs.CreateFolder">true</parameter>
