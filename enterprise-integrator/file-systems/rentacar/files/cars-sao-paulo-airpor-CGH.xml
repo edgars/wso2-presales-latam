@@ -1,0 +1,15 @@
+<xml>
+   <agency>Congonhas</agency>
+   <city>Sao Paulo</city>
+   <rentals>
+       <rental>
+           <carID>00019</carID>
+           <customerID>7</customerID>
+           <startingDate>11/02/2018</startingDate>
+           <estimatedRentalDays>9</estimatedRentalDays>
+           <paymentID>88822442</paymentID>
+       </rental>
+      
+   </rentals>
+
+</xml>
