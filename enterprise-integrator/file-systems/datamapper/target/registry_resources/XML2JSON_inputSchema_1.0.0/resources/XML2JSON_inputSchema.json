@@ -1,0 +1,48 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "xml",
+  "type" : "object",
+  "properties" : {
+    "agency" : {
+      "id" : "http://wso2jsonschema.org/agency",
+      "type" : "string"
+    },
+    "city" : {
+      "id" : "http://wso2jsonschema.org/city",
+      "type" : "string"
+    },
+    "rentals" : {
+      "id" : "http://wso2jsonschema.org/rentals",
+      "type" : "object",
+      "properties" : {
+        "rental" : {
+          "id" : "http://wso2jsonschema.org/rentals/rental",
+          "type" : "object",
+          "properties" : {
+            "carID" : {
+              "id" : "http://wso2jsonschema.org/rentals/rental/carID",
+              "type" : "string"
+            },
+            "customerID" : {
+              "id" : "http://wso2jsonschema.org/rentals/rental/customerID",
+              "type" : "number"
+            },
+            "startingDate" : {
+              "id" : "http://wso2jsonschema.org/rentals/rental/startingDate",
+              "type" : "string"
+            },
+            "estimatedRentalDays" : {
+              "id" : "http://wso2jsonschema.org/rentals/rental/estimatedRentalDays",
+              "type" : "number"
+            },
+            "paymentID" : {
+              "id" : "http://wso2jsonschema.org/rentals/rental/paymentID",
+              "type" : "number"
+            }
+          }
+        }
+      }
+    }
+  }
+}

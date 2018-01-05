@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datamapper:DataMapperRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper">
+  <input>
+    <treeNode name="xml" schemaDataType="OBJECT" level="1">
+      <node name="agency" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/agency"/>
+        <properties key="nullable" value="false"/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.0/@inNode"/>
+        </outNode>
+        <inNode/>
+      </node>
+      <node name="city" schemaDataType="STRING" level="2">
+        <properties key="type" value="string"/>
+        <properties key="id" value="http://wso2jsonschema.org/city"/>
+        <properties key="nullable" value="false"/>
+        <outNode>
+          <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.1/@inNode"/>
+        </outNode>
+        <inNode/>
+      </node>
+      <node name="rentals" schemaDataType="OBJECT" level="2">
+        <node name="rental" schemaDataType="OBJECT" level="3">
+          <node name="carID" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/rentals/rental/carID"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.0/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="customerID" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/rentals/rental/customerID"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.1/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="startingDate" schemaDataType="STRING" level="4">
+            <properties key="type" value="string"/>
+            <properties key="id" value="http://wso2jsonschema.org/rentals/rental/startingDate"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.2/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="estimatedRentalDays" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/rentals/rental/estimatedRentalDays"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.3/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <node name="paymentID" schemaDataType="NUMBER" level="4">
+            <properties key="type" value="number"/>
+            <properties key="id" value="http://wso2jsonschema.org/rentals/rental/paymentID"/>
+            <properties key="nullable" value="false"/>
+            <outNode>
+              <outgoingLink inNode="//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.4/@inNode"/>
+            </outNode>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/rentals/rental"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{carID={id=http://wso2jsonschema.org/rentals/rental/carID, type=string}, customerID={id=http://wso2jsonschema.org/rentals/rental/customerID, type=number}, startingDate={id=http://wso2jsonschema.org/rentals/rental/startingDate, type=string}, estimatedRentalDays={id=http://wso2jsonschema.org/rentals/rental/estimatedRentalDays, type=number}, paymentID={id=http://wso2jsonschema.org/rentals/rental/paymentID, type=number}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/rentals"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{rental={id=http://wso2jsonschema.org/rentals/rental, type=object, properties={carID={id=http://wso2jsonschema.org/rentals/rental/carID, type=string}, customerID={id=http://wso2jsonschema.org/rentals/rental/customerID, type=number}, startingDate={id=http://wso2jsonschema.org/rentals/rental/startingDate, type=string}, estimatedRentalDays={id=http://wso2jsonschema.org/rentals/rental/estimatedRentalDays, type=number}, paymentID={id=http://wso2jsonschema.org/rentals/rental/paymentID, type=number}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </input>
+  <output>
+    <treeNode name="root" schemaDataType="OBJECT" level="1">
+      <node name="movimento" schemaDataType="OBJECT" level="2">
+        <node name="agency" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/movimento/agency"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="city" schemaDataType="STRING" level="3">
+          <properties key="type" value="string"/>
+          <properties key="id" value="http://wso2jsonschema.org/movimento/city"/>
+          <properties key="nullable" value="false"/>
+          <outNode/>
+          <inNode incomingLink="//@input/@treeNode.0/@node.1/@outNode/@outgoingLink.0"/>
+        </node>
+        <node name="rentals" schemaDataType="OBJECT" level="3">
+          <node name="rental" schemaDataType="OBJECT" level="4">
+            <node name="carID" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental/carID"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="customerID" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental/customerID"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="startingDate" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental/startingDate"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="estimatedRentalDays" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental/estimatedRentalDays"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+            </node>
+            <node name="paymentID" schemaDataType="STRING" level="5">
+              <properties key="type" value="string"/>
+              <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental/paymentID"/>
+              <properties key="nullable" value="false"/>
+              <outNode/>
+              <inNode incomingLink="//@input/@treeNode.0/@node.2/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+            </node>
+            <properties key="type" value="object"/>
+            <properties key="id" value="http://wso2jsonschema.org/movimento/rentals/rental"/>
+            <properties key="nullable" value="false"/>
+            <properties key="properties_id" value="{carID={id=http://wso2jsonschema.org/movimento/rentals/rental/carID, type=string}, customerID={id=http://wso2jsonschema.org/movimento/rentals/rental/customerID, type=string}, startingDate={id=http://wso2jsonschema.org/movimento/rentals/rental/startingDate, type=string}, estimatedRentalDays={id=http://wso2jsonschema.org/movimento/rentals/rental/estimatedRentalDays, type=string}, paymentID={id=http://wso2jsonschema.org/movimento/rentals/rental/paymentID, type=string}}"/>
+            <outNode/>
+            <inNode/>
+          </node>
+          <properties key="type" value="object"/>
+          <properties key="id" value="http://wso2jsonschema.org/movimento/rentals"/>
+          <properties key="nullable" value="false"/>
+          <properties key="properties_id" value="{rental={id=http://wso2jsonschema.org/movimento/rentals/rental, type=object, properties={carID={id=http://wso2jsonschema.org/movimento/rentals/rental/carID, type=string}, customerID={id=http://wso2jsonschema.org/movimento/rentals/rental/customerID, type=string}, startingDate={id=http://wso2jsonschema.org/movimento/rentals/rental/startingDate, type=string}, estimatedRentalDays={id=http://wso2jsonschema.org/movimento/rentals/rental/estimatedRentalDays, type=string}, paymentID={id=http://wso2jsonschema.org/movimento/rentals/rental/paymentID, type=string}}}}"/>
+          <outNode/>
+          <inNode/>
+        </node>
+        <properties key="type" value="object"/>
+        <properties key="id" value="http://wso2jsonschema.org/movimento"/>
+        <properties key="nullable" value="false"/>
+        <properties key="properties_id" value="{agency={id=http://wso2jsonschema.org/movimento/agency, type=string}, city={id=http://wso2jsonschema.org/movimento/city, type=string}, rentals={id=http://wso2jsonschema.org/movimento/rentals, type=object, properties={rental={id=http://wso2jsonschema.org/movimento/rentals/rental, type=object, properties={carID={id=http://wso2jsonschema.org/movimento/rentals/rental/carID, type=string}, customerID={id=http://wso2jsonschema.org/movimento/rentals/rental/customerID, type=string}, startingDate={id=http://wso2jsonschema.org/movimento/rentals/rental/startingDate, type=string}, estimatedRentalDays={id=http://wso2jsonschema.org/movimento/rentals/rental/estimatedRentalDays, type=string}, paymentID={id=http://wso2jsonschema.org/movimento/rentals/rental/paymentID, type=string}}}}}}"/>
+        <outNode/>
+        <inNode/>
+      </node>
+      <properties key="type" value="object"/>
+      <properties key="$schema" value="http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#"/>
+      <properties key="id" value="http://wso2jsonschema.org"/>
+      <properties key="nullable" value="false"/>
+      <outNode/>
+      <inNode/>
+    </treeNode>
+  </output>
+</datamapper:DataMapperRoot>

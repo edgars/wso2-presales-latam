@@ -1,0 +1,54 @@
+{
+  "$schema" : "http://wso2.org/json-schema/wso2-data-mapper-v5.0.0/schema#",
+  "id" : "http://wso2jsonschema.org",
+  "title" : "root",
+  "type" : "object",
+  "properties" : {
+    "movimento" : {
+      "id" : "http://wso2jsonschema.org/movimento",
+      "type" : "object",
+      "properties" : {
+        "agency" : {
+          "id" : "http://wso2jsonschema.org/movimento/agency",
+          "type" : "string"
+        },
+        "city" : {
+          "id" : "http://wso2jsonschema.org/movimento/city",
+          "type" : "string"
+        },
+        "rentals" : {
+          "id" : "http://wso2jsonschema.org/movimento/rentals",
+          "type" : "object",
+          "properties" : {
+            "rental" : {
+              "id" : "http://wso2jsonschema.org/movimento/rentals/rental",
+              "type" : "object",
+              "properties" : {
+                "carID" : {
+                  "id" : "http://wso2jsonschema.org/movimento/rentals/rental/carID",
+                  "type" : "string"
+                },
+                "customerID" : {
+                  "id" : "http://wso2jsonschema.org/movimento/rentals/rental/customerID",
+                  "type" : "string"
+                },
+                "startingDate" : {
+                  "id" : "http://wso2jsonschema.org/movimento/rentals/rental/startingDate",
+                  "type" : "string"
+                },
+                "estimatedRentalDays" : {
+                  "id" : "http://wso2jsonschema.org/movimento/rentals/rental/estimatedRentalDays",
+                  "type" : "string"
+                },
+                "paymentID" : {
+                  "id" : "http://wso2jsonschema.org/movimento/rentals/rental/paymentID",
+                  "type" : "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="__SRh8PHJEeeXxcYLScj2dw" type="DataMapper" name="XML2JSON.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="__Z5M4PHJEeeXxcYLScj2dw" type="2002" fontName=".SF NS Text">
+    <children xmi:type="notation:Shape" xmi:id="_IN9qkPHKEeeXxcYLScj2dw" type="3002" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IN-RoPHKEeeXxcYLScj2dw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_IOTBwPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IOTBwvHKEeeXxcYLScj2dw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IOhrQPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+          <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOhrQfHKEeeXxcYLScj2dw" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IOhrQvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+          <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOhrQ_HKEeeXxcYLScj2dw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOTBwfHKEeeXxcYLScj2dw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IOTBw_HKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IOTBxfHKEeeXxcYLScj2dw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IO0mMPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+          <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IO0mMfHKEeeXxcYLScj2dw" x="-1" y="1"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IO0mMvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+          <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IO0mM_HKEeeXxcYLScj2dw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOTBxPHKEeeXxcYLScj2dw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IOTBxvHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IOTByPHKEeeXxcYLScj2dw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_IO--QPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_IO--QvHKEeeXxcYLScj2dw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6EPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IPG6EvHKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_IPOO0PHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPOO0fHKEeeXxcYLScj2dw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IPOO0vHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPOO0_HKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6EfHKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6E_HKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IPG6FfHKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_IPZN8PHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.1/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPZN8fHKEeeXxcYLScj2dw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IPZN8vHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.1/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPZN8_HKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6FPHKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6FvHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IPG6GPHKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_IPi-8PHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.2/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPi-8fHKEeeXxcYLScj2dw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IPi-8vHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.2/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPi-8_HKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6F_HKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6GfHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IPG6G_HKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_IPtXAPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.3/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPtXAfHKEeeXxcYLScj2dw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IPt-EPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.3/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPt-EfHKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6GvHKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6HPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_IPG6HvHKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_IP3vEPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.4/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IP3vEfHKEeeXxcYLScj2dw" x="-1" y="1"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IP4WIPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.4/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IP4WIfHKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6HfHKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6H_HKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+            <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6IPHKEeeXxcYLScj2dw" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_IPG6IfHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+            <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IPG6IvHKEeeXxcYLScj2dw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IO--QfHKEeeXxcYLScj2dw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IO--Q_HKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+          <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IO--RPHKEeeXxcYLScj2dw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_IO--RfHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+          <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IO--RvHKEeeXxcYLScj2dw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOTBx_HKEeeXxcYLScj2dw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IOTByfHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+        <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOTByvHKEeeXxcYLScj2dw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IOTBy_HKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+        <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IOTBzPHKEeeXxcYLScj2dw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IN9qkfHKEeeXxcYLScj2dw"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="XML2JSON.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Z5M4fHJEeeXxcYLScj2dw" width="250" height="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="__Z5z8PHJEeeXxcYLScj2dw" type="2003" fontName=".SF NS Text">
+    <children xmi:type="notation:Shape" xmi:id="_LyHt0PHKEeeXxcYLScj2dw" type="3011" fontName=".SF NS Text">
+      <children xmi:type="notation:DecorationNode" xmi:id="_LyIU4PHKEeeXxcYLScj2dw" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_LyW-YPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LyW-YvHKEeeXxcYLScj2dw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_Lye6MPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_Lye6MvHKEeeXxcYLScj2dw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_LyndEPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+            <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.0/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyndEfHKEeeXxcYLScj2dw" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_LyndEvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+            <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.0/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyndE_HKEeeXxcYLScj2dw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lye6MfHKEeeXxcYLScj2dw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LyfhQPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_LyfhQvHKEeeXxcYLScj2dw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_Lyx1IPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+            <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lyx1IfHKEeeXxcYLScj2dw" x="-5" y="4"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Lyx1IvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+            <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lyx1I_HKEeeXxcYLScj2dw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyfhQfHKEeeXxcYLScj2dw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LyfhQ_HKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_LyfhRfHKEeeXxcYLScj2dw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_Ly8NMPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ly8NMvHKEeeXxcYLScj2dw" type="5001"/>
+            <children xmi:type="notation:Shape" xmi:id="_LzDh8PHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LzDh8vHKEeeXxcYLScj2dw" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_LzLdwPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+                <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.0/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzLdwfHKEeeXxcYLScj2dw" x="-5" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_LzLdwvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+                <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.0/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzLdw_HKEeeXxcYLScj2dw"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzDh8fHKEeeXxcYLScj2dw"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzDh8_HKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LzDh9fHKEeeXxcYLScj2dw" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_LzV10PHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+                <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.1/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzV10fHKEeeXxcYLScj2dw" x="-5" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_LzV10vHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+                <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.1/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzV10_HKEeeXxcYLScj2dw"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.1"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzDh9PHKEeeXxcYLScj2dw"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzDh9vHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LzDh-PHKEeeXxcYLScj2dw" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_LzgN4PHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+                <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.2/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzgN4fHKEeeXxcYLScj2dw" x="-5" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_LzgN4vHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+                <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.2/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzgN4_HKEeeXxcYLScj2dw"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.2"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzDh9_HKEeeXxcYLScj2dw"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzEJAPHKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LzEJAvHKEeeXxcYLScj2dw" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_Lzr0EPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+                <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.3/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lzr0EfHKEeeXxcYLScj2dw" x="-5" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_Lzr0EvHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+                <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.3/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lzr0E_HKEeeXxcYLScj2dw"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.3"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzEJAfHKEeeXxcYLScj2dw"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzEJA_HKEeeXxcYLScj2dw" type="3003" fontName=".SF NS Text">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LzEJBfHKEeeXxcYLScj2dw" type="5001"/>
+              <children xmi:type="notation:Shape" xmi:id="_Lz1lEPHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+                <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.4/@inNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lz1lEfHKEeeXxcYLScj2dw" x="-5" y="4"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_Lz2MIPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+                <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.4/@outNode"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lz2MIfHKEeeXxcYLScj2dw"/>
+              </children>
+              <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@node.4"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzEJBPHKEeeXxcYLScj2dw"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzEJBvHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+              <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@inNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzEJB_HKEeeXxcYLScj2dw" x="-1" y="-11"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_LzEJCPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+              <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0/@outNode"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LzEJCfHKEeeXxcYLScj2dw"/>
+            </children>
+            <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@node.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ly8NMfHKEeeXxcYLScj2dw"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Ly8NM_HKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+            <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ly8NNPHKEeeXxcYLScj2dw" x="-1" y="-11"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Ly8NNfHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+            <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ly8NNvHKEeeXxcYLScj2dw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@node.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyfhRPHKEeeXxcYLScj2dw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LyfhRvHKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+          <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyfhR_HKEeeXxcYLScj2dw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_LyfhSPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+          <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyfhSfHKEeeXxcYLScj2dw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyW-YfHKEeeXxcYLScj2dw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LyW-Y_HKEeeXxcYLScj2dw" type="3020" fontName=".SF NS Text">
+        <element xmi:type="datamapper:InNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyW-ZPHKEeeXxcYLScj2dw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LyXlcPHKEeeXxcYLScj2dw" type="3019" fontName=".SF NS Text">
+        <element xmi:type="datamapper:OutNode" href="XML2JSON.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyXlcfHKEeeXxcYLScj2dw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="XML2JSON.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyHt0fHKEeeXxcYLScj2dw"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="XML2JSON.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Z5z8fHJEeeXxcYLScj2dw" x="100" width="250" height="100"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="__SRh8fHJEeeXxcYLScj2dw"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="XML2JSON.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_NzwOYPHKEeeXxcYLScj2dw" type="4001" source="_IOhrQvHKEeeXxcYLScj2dw" target="_LyndEPHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_NzwOYfHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NzwOYvHKEeeXxcYLScj2dw" points="[-1, 0, -220, -18]$[218, 18, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nz7NgPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nz7NgfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_O5V9cPHKEeeXxcYLScj2dw" type="4001" source="_IO0mMvHKEeeXxcYLScj2dw" target="_Lyx1IPHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_O5V9cfHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O5V9cvHKEeeXxcYLScj2dw" points="[-1, 0, -220, -18]$[218, 18, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O5XLkPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O5XLkfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RRYL0PHKEeeXxcYLScj2dw" type="4001" source="_IPOO0vHKEeeXxcYLScj2dw" target="_LzLdwPHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_RRYL0fHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.0/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RRYL0vHKEeeXxcYLScj2dw" points="[-1, 0, -220, -19]$[218, 19, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RRaBAPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RRaBAfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RosfoPHKEeeXxcYLScj2dw" type="4001" source="_IPZN8vHKEeeXxcYLScj2dw" target="_LzV10PHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_RosfofHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.1/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RosfovHKEeeXxcYLScj2dw" points="[-1, 0, -220, -20]$[218, 20, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RotGsPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RotGsfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_SD8RMPHKEeeXxcYLScj2dw" type="4001" source="_IPi-8vHKEeeXxcYLScj2dw" target="_LzgN4PHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_SD8RMfHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SD8RMvHKEeeXxcYLScj2dw" points="[-1, 0, -220, -20]$[218, 20, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SD9fUPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SD9fUfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_TmQYgPHKEeeXxcYLScj2dw" type="4001" source="_IPt-EPHKEeeXxcYLScj2dw" target="_Lzr0EPHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_TmQYgfHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.3/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TmQYgvHKEeeXxcYLScj2dw" points="[-1, 0, -220, -20]$[218, 20, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TmQ_kPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TmQ_kfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UaRPYPHKEeeXxcYLScj2dw" type="4001" source="_IP4WIPHKEeeXxcYLScj2dw" target="_Lz1lEPHKEeeXxcYLScj2dw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_UaRPYfHKEeeXxcYLScj2dw" fontName=".SF NS Text"/>
+    <element xmi:type="datamapper:DataMapperLink" href="XML2JSON.datamapper#//@input/@treeNode.0/@node.2/@node.0/@node.4/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UaRPYvHKEeeXxcYLScj2dw" points="[-1, 0, -220, -20]$[218, 20, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UaSdgPHKEeeXxcYLScj2dw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UaSdgfHKEeeXxcYLScj2dw" id="CENTER"/>
+  </edges>
+</notation:Diagram>

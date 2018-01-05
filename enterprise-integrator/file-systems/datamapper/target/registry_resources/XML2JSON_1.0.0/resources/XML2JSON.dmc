@@ -1,0 +1,26 @@
+map_S_xml_S_root = function(){ 
+var outputroot={};
+
+outputroot =  {};
+outputroot.movimento =  {};
+outputroot.movimento.agency = inputxml.agency;
+outputroot.movimento.city = inputxml.city;
+outputroot.movimento.rentals =  {};
+outputroot.movimento.rentals.rental =  {};
+outputroot.movimento.rentals.rental.carID = inputxml.rentals.rental.carID;
+outputroot.movimento.rentals.rental.customerID = inputxml.rentals.rental.customerID;
+outputroot.movimento.rentals.rental.startingDate = inputxml.rentals.rental.startingDate;
+outputroot.movimento.rentals.rental.estimatedRentalDays = inputxml.rentals.rental.estimatedRentalDays;
+outputroot.movimento.rentals.rental.paymentID = inputxml.rentals.rental.paymentID;
+return outputroot;
+};
+
+
+
+
+
+
+
+
+
+
