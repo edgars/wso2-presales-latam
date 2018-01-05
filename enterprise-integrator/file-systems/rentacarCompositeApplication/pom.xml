@@ -9,8 +9,12 @@
   <name>rentacarCompositeApplication</name>
   <description>rentacarCompositeApplication</description>
   <properties>
+    <br.com.wso2.sequence_._car-import-error-Sequence>capp/EnterpriseServiceBus</br.com.wso2.sequence_._car-import-error-Sequence>
+    <br.com.wso2.inbound-endpoint_._agency-cars-InboundEndpoint>capp/EnterpriseServiceBus</br.com.wso2.inbound-endpoint_._agency-cars-InboundEndpoint>
     <com.example.datamapper.resource_._XML2JSON_outputSchema>capp/EnterpriseServiceBus</com.example.datamapper.resource_._XML2JSON_outputSchema>
     <com.example.datamapper.resource_._XML2JSON_inputSchema>capp/EnterpriseServiceBus</com.example.datamapper.resource_._XML2JSON_inputSchema>
+    <br.com.wso2.template_._ftp-template>capp/EnterpriseServiceBus</br.com.wso2.template_._ftp-template>
+    <br.com.wso2.sequence_._car-import-process-file-Sequence>capp/EnterpriseServiceBus</br.com.wso2.sequence_._car-import-process-file-Sequence>
     <artifact.types>jaggery/app=zip,synapse/priority-executor=xml,synapse/inbound-endpoint=xml,service/rule=aar,synapse/message-store=xml,event/stream=json,service/meta=xml,synapse/proxy-service=xml,bpel/workflow=zip,synapse/sequence=xml,synapse/endpointTemplate=xml,carbon/application=car,wso2/gadget=dar,synapse/api=xml,synapse/event-source=xml,synapse/message-processors=xml,event/receiver=xml,lib/dataservice/validator=jar,synapse/template=xml,synapse/endpoint=xml,lib/carbon/ui=jar,lib/synapse/mediator=jar,event/publisher=xml,synapse/local-entry=xml,synapse/task=xml,webapp/jaxws=war,registry/resource=zip,synapse/configuration=xml,service/axis2=aar,synapse/lib=zip,synapse/sequenceTemplate=xml,event/execution-plan=siddhiql,service/dataservice=dbs,web/application=war,lib/library/bundle=jar</artifact.types>
     <com.example.datamapper.resource_._XML2JSON>capp/EnterpriseServiceBus</com.example.datamapper.resource_._XML2JSON>
   </properties>
@@ -32,6 +36,30 @@
       <artifactId>XML2JSON_outputSchema</artifactId>
       <version>1.0.0</version>
       <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>br.com.wso2.inbound-endpoint</groupId>
+      <artifactId>agency-cars-InboundEndpoint</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>br.com.wso2.sequence</groupId>
+      <artifactId>car-import-error-Sequence</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>br.com.wso2.sequence</groupId>
+      <artifactId>car-import-process-file-Sequence</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>br.com.wso2.template</groupId>
+      <artifactId>ftp-template</artifactId>
+      <version>1.0.0</version>
+      <type>xml</type>
     </dependency>
   </dependencies>
   <repositories>
