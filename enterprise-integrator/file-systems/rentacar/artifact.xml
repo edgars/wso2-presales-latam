@@ -8,4 +8,7 @@
     <artifact name="car-import-process-file-Sequence" groupId="br.com.wso2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/car-import-process-file-Sequence.xml</file>
     </artifact>
+    <artifact name="ftp-template" groupId="br.com.wso2.template" version="1.0.0" type="synapse/sequenceTemplate" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/templates/ftp-template.xml</file>
+    </artifact>
 </artifacts>
