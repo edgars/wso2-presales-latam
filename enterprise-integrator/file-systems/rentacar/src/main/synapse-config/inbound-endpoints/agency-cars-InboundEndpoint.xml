@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <inboundEndpoint name="agency-cars-InboundEndpoint" onError="car-import-error-Sequence" protocol="file" sequence="car-import-process-file-Sequence" statistics="enable" suspend="false" trace="enable" xmlns="http://ws.apache.org/ns/synapse">
     <parameters>
         <parameter name="interval">3000</parameter>
@@ -15,6 +16,18 @@
         <parameter name="transport.vfs.FileNamePattern">.*.xml</parameter>
         <parameter name="transport.vfs.MoveAfterProcess">file:///Users/edgar/WSO2-Local/workspace/2018/wso2-presales-latam/enterprise-integrator/file-systems/rentacar/files/out</parameter>
         <parameter name="transport.vfs.Locking">disable</parameter>
+=======
+<inboundEndpoint name="agency-cars-InboundEndpoint" protocol="file" suspend="false" xmlns="http://ws.apache.org/ns/synapse">
+    <parameters>
+        <parameter name="sequential">true</parameter>
+        <parameter name="coordination">true</parameter>
+        <parameter name="transport.vfs.LockReleaseSameNode">false</parameter>
+        <parameter name="transport.vfs.AutoLockRelease">false</parameter>
+        <parameter name="transport.vfs.ActionAfterFailure">DELETE</parameter>
+        <parameter name="transport.vfs.ActionAfterProcess">DELETE</parameter>
+        <parameter name="transport.vfs.DistributedLock">false</parameter>
+        <parameter name="transport.vfs.Locking">enable</parameter>
+>>>>>>> 562301557755f5c78f21cd3d79785655fe00c92c
         <parameter name="transport.vfs.FileSortAttribute">none</parameter>
         <parameter name="transport.vfs.FileSortAscending">true</parameter>
         <parameter name="transport.vfs.CreateFolder">true</parameter>

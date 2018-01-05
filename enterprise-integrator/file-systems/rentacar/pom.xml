@@ -123,6 +123,7 @@
         </executions>
         <configuration />
       </plugin>
+<<<<<<< HEAD
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>wso2-esb-sequence-plugin</artifactId>
@@ -163,6 +164,8 @@
         </executions>
         <configuration />
       </plugin>
+=======
+>>>>>>> 562301557755f5c78f21cd3d79785655fe00c92c
     </plugins>
   </build>
 </project>
