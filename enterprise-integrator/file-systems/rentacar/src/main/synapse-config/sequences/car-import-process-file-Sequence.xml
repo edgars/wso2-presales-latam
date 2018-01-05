@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sequence name="car-import-process-file-Sequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse"/>
+<sequence name="car-import-process-file-Sequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+    <log description="Init" level="full"/>
+    <datamapper config="gov:datamapper/XML2JSON.dmc" description="XML TO JSON" inputSchema="gov:datamapper/XML2JSON_inputSchema.json" inputType="XML" outputSchema="gov:datamapper/XML2JSON_outputSchema.json" outputType="JSON"/>
+    <log description="Processed" level="full"/>
+</sequence>

@@ -1,0 +1,15 @@
+{
+  "movimento": {
+    "agency": "Congonhas",
+    "city": "Sao Paulo",
+    "rentals": {
+      "rental": {
+        "carID": "00019",
+        "customerID": "7",
+        "startingDate": "11/02/2018",
+        "estimatedRentalDays": "9",
+        "paymentID": "88822442"
+      }
+    }
+  }
+}
