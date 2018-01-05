@@ -2,16 +2,10 @@
     <artifact name="agency-cars-InboundEndpoint" groupId="br.com.wso2.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/inbound-endpoints/agency-cars-InboundEndpoint.xml</file>
     </artifact>
-<<<<<<< HEAD
     <artifact name="car-import-error-Sequence" groupId="br.com.wso2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/car-import-error-Sequence.xml</file>
     </artifact>
     <artifact name="car-import-process-file-Sequence" groupId="br.com.wso2.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
         <file>src/main/synapse-config/sequences/car-import-process-file-Sequence.xml</file>
     </artifact>
-    <artifact name="ftp-template" groupId="br.com.wso2.template" version="1.0.0" type="synapse/sequenceTemplate" serverRole="EnterpriseServiceBus">
-        <file>src/main/synapse-config/templates/ftp-template.xml</file>
-    </artifact>
-=======
->>>>>>> 562301557755f5c78f21cd3d79785655fe00c92c
 </artifacts>
